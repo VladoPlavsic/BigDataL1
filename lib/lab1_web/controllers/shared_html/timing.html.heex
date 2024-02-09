@@ -1,0 +1,9 @@
+<div style="min-height: 100vh; min-width: 100vw">
+  <div style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);">
+    <h2>Successfully inserted <%= @attrs.count %> records </h2>
+    <p>It took: </p>
+    <p> <%= @attrs.uSec %> us </p>
+    <p> <%= @attrs.uSec / 1_000 %> ms </p>
+    <p> <%= @attrs.uSec / 1_000_000 %> s </p>
+  </div>
+</div>
